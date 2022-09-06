@@ -1,0 +1,248 @@
+html {
+    margin: 15px;
+}
+
+p, a, table, tr, th {
+    font-family: "PT Sans";
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 65px;
+    font-weight: bolder;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+button {
+    font-family: "PT Sans";
+    font-weight: bold;
+    background-color: #FFFFFF;
+    border-radius: 50em;
+    border: 3px solid #FF1493;
+    padding: 12px 35px;
+}
+
+i {
+    font-size: 1.25em;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.pink_text {
+    color: #FF69B4;
+}
+
+.grey_text {
+    color: #696969;
+}
+
+.bold_text {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.copyright:before {
+    content: "\00a9";
+}
+
+.link_tree {
+    box-sizing: border-box;
+    width: 30%;  
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.link_branch {
+    display: flex;
+    flex-direction: column;
+}
+
+.social_media_icons {
+    box-sizing: border-box;
+    width: 7%;   
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom_row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    background-color: #DCDCDC;
+    width: 100%;
+    border-radius: 20px;
+    padding: 0 0 10px 0;
+    width: fit-content;
+    block-size: fit-content;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+th.first_column, td.first_column {
+    text-align: left;
+}
+
+th.second_column, td.second_column {
+    text-align: right;
+}
+
+.first_card_row_1 {
+    text-transform: uppercase;
+    color: #FF6347;
+    font-size: 10px;
+}
+
+.first_card_row_2 {
+    text-transform: uppercase;
+    color: #696969;
+    font-size: 10px;
+}
+
+.second_card_row {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.third_card_row {
+    color: #696969;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+}
+
+
+
+@media screen and (max-width: 676px) {
+    .navigation {
+        visibility: hidden;
+    }
+
+    .first_container {
+        margin: 20px;
+        display: grid;
+        grid-template-columns: 90% auto;
+    }
+
+    .first_container_box {
+        width: 320px;
+        padding: 10px;
+        margin: 0;
+    }
+
+    .second_container {
+        background-image: url("assets/assets/background.svg");
+        padding: 50px 20px 20px 20px;      
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: auto;
+        box-sizing: border-box;
+        width: 100%;
+        content: center;
+        object-fit: cover;
+        
+    }
+
+    .opendoor_logo {
+        visibility: hidden;
+    }
+
+    .third_container {
+        box-sizing: border-box;
+        display: flex;
+        align-content: center;
+    }
+        
+    .fourth_container {
+        margin: 20px;
+        width: 100%;
+    }
+
+    .fifth_container {
+        margin: 20px;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .sixth_container {
+        margin: 20px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+
+    .footer {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    
+    
+}
+
+@media screen and (min-width: 677px) {
+    .first_container {
+        margin: 20px;
+        display: grid;
+        grid-template-columns: 65% auto;
+    }
+
+    
+    .second_container {
+        background-image: url("assets/assets/background.svg");
+        padding: 50px 20px 20px 20px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        box-sizing: border-box;
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .third_container {
+        box-sizing: border-box;
+        margin: 20px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .fourth_container {
+        margin: 20px;
+        width: 100%;
+    }
+
+    .fifth_container {
+        margin: 20px;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .sixth_container {
+        margin: 20px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+
+}
